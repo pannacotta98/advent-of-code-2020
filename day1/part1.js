@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const input = fs.readFileSync('input', 'utf8');
+const input = fs.readFileSync(__dirname + '/input', 'utf8');
 const numArray = input.split('\n').map((d) => +d);
 
 for (const num1 of numArray) {
